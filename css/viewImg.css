@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.view-img-layout{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	background-color: #000;
+}
+.view-img-close{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	margin-left: -36px;
+	width: 72px;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgba(128,128,128,.4);
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 3px;
+	z-index: 99;
+}
+.view-img-hidden{
+	display: none;
+}
+.view-loading{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -10px;
+	width: 20px;
+	z-index: 50;
+}
+.view-lar-img{
+	position: absolute;
+	z-index: 80;
+}
+.view-img-layout .frame {
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+ 
+.view-img-layout .slides {
+    display: inline-block;
+}
+ 
+.view-img-layout li.js_slide {
+    position: relative;
+    display: inline-block;
+}
+.lory-pagination{
+	position: absolute;
+	bottom: 20px;
+	left: 15px;
+}
+.lory-pagination li{
+	display: inline-block;
+	margin-right: 5px;
+	width: 5px;
+	height: 5px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 100%;
+}
+.lory-pagination li.active{
+	background-color: rgba(255, 255, 255, 1);
+}
